@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AudioPulo.mp3-a893ba3f0d37702b4294152cc29234cc.mp3str"
+
+[deps]
+
+source_file="res://Sounds/AudioPulo.mp3"
+dest_files=[ "res://.import/AudioPulo.mp3-a893ba3f0d37702b4294152cc29234cc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

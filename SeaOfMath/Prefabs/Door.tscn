@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Opening/05.png" type="Texture" id=4]
+[ext_resource path="res://Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Opening/01.png" type="Texture" id=9]
+
+[sub_resource type="CircleShape2D" id=5]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 20.5, 25 )
+
+[node name="Door" type="Area2D"]
+collision_layer = 8
+
+[node name="texture2" type="Sprite" parent="."]
+texture = ExtResource( 4 )
+
+[node name="texture" type="Sprite" parent="."]
+texture = ExtResource( 9 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 5 )
+
+[node name="barreira" type="StaticBody2D" parent="."]
+collision_layer = 0
+
+[node name="collision" type="CollisionShape2D" parent="barreira"]
+position = Vector2( 0.5, 7 )
+shape = SubResource( 4 )

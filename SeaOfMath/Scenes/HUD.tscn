@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/01.png" type="Texture" id=4]
+[ext_resource path="res://Scripts/LifeHolder.gd" type="Script" id=5]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -236.0
+
+[node name="Holder" type="Control" parent="HBoxContainer"]
+margin_right = 608.0
+margin_bottom = 114.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.3
+script = ExtResource( 5 )
+
+[node name="lifes" type="TextureRect" parent="HBoxContainer/Holder"]
+margin_left = 6.0
+margin_top = 5.0
+margin_right = 30.0
+margin_bottom = 29.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 2

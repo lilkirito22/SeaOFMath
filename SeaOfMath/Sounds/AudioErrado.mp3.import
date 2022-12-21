@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AudioErrado.mp3-0b1ff18436aaa9a2c6b2cdbb71a74c28.mp3str"
+
+[deps]
+
+source_file="res://Sounds/AudioErrado.mp3"
+dest_files=[ "res://.import/AudioErrado.mp3-0b1ff18436aaa9a2c6b2cdbb71a74c28.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

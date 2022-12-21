@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Oswald-VariableFont_wght.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Scenes/Number5.gd" type="Script" id=2]
+[ext_resource path="res://Sounds/AudioErrado.mp3" type="AudioStream" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+outline_size = 2
+outline_color = Color( 0.2, 0.196078, 0.239216, 1 )
+use_filter = true
+extra_spacing_char = 2
+font_data = ExtResource( 1 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10.5, 6 )
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 5.0
+margin_right = 47.0
+margin_bottom = 19.0
+custom_fonts/font = SubResource( 1 )
+text = "143"
+align = 1
+valign = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 26.5, 15 )
+shape = SubResource( 2 )
+
+[node name="AudioErrado" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+
+[connection signal="body_entered" from="." to="." method="_on_Area2D_body_entered"]

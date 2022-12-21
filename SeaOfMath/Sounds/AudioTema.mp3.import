@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/AudioTema.mp3-e4ff3bb53c57b20088d0e3ce5dac9303.mp3str"
+
+[deps]
+
+source_file="res://Sounds/AudioTema.mp3"
+dest_files=[ "res://.import/AudioTema.mp3-e4ff3bb53c57b20088d0e3ce5dac9303.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
