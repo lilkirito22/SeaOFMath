@@ -1,6 +1,7 @@
 # SeaOFMath
 
-![image](https://github.com/lilkirito22/SeaOFMath/assets/85415599/68956b4f-d5cd-427a-9ead-2baa1c43e0f4)
+![Captura de tela 2023-11-14 103204](https://github.com/lilkirito22/SeaOFMath/assets/85415599/06e4acc0-c19c-470e-aefe-8c3bd15dbb30)
+
 
 
 ![image](https://github.com/lilkirito22/SeaOFMath/assets/85415599/f392d885-14aa-4fe7-967c-383402a49625)
