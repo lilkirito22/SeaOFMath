@@ -1,4 +1,10 @@
 # SeaOFMath
+
+![image](https://github.com/lilkirito22/SeaOFMath/assets/85415599/68956b4f-d5cd-427a-9ead-2baa1c43e0f4)
+
+
+![image](https://github.com/lilkirito22/SeaOFMath/assets/85415599/f392d885-14aa-4fe7-967c-383402a49625)
+
  
  
  
